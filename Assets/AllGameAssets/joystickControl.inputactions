@@ -1,0 +1,34 @@
+{
+    "name": "joystickControl",
+    "maps": [
+        {
+            "name": "SpaceShipCollider",
+            "id": "f5a79114-fe9d-4426-bddf-a07a0c21e38a",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Value",
+                    "id": "4b09ca12-cf4a-4fb7-97f3-20dccd17f84b",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a9e55ba0-b1ce-42dd-9fb9-962eaf1e2168",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
